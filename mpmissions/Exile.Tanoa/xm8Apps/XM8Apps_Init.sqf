@@ -21,21 +21,21 @@ If you want to change what button the XM8 Apps appears on edit ExileClient_gui_x
 
 
 ///App 1
-_app1Text = "Recipes";
+_app1Text = "RECIPIES";
 _app1Logo = "xm8Apps\BRAmaRecipes\BRAma.paa";
 app1_action = {
 execVM "xm8Apps\BRAmaRecipes\init.sqf";
 };
 
 //App 2
-_app2Text = "View Distance";
+_app2Text = "VIEW DISTANCE";
 _app2Logo = getText (configfile >> "CfgWeapons" >> "Binocular" >> "picture");
 app2_action = {
   execVM "xm8Apps\View Distance\VeiwDistance.sqf";
 };
 
 //App 3 
-_app3Text = "Base Locator";
+_app3Text = "BASE LOCATOR";
 _app3Logo = "\exile_assets\texture\ui\snap_blue_ca.paa";
 app3_action = {
 	private ["_position"];
@@ -44,52 +44,53 @@ app3_action = {
 };
 
 //App 4
-_app4Text = "Player Stats";
+_app4Text = "PLAYER STATS";
 _app4Logo = "xm8Apps\Player Stats\Stats_IconWhite.paa";
 app4_action = {
   execVM"xm8Apps\Player Stats\PlayerStats.sqf";
 };
 
 //App 5
-_app5Text = "Server Info Menu";
+_app5Text = "SERVER INFO MENU";
 _app5Logo = "\a3\ui_f\data\Map\VehicleIcons\iconVirtual_ca.paa";
 app5_action = {
 	createDialog 'RscDisplayServerInfoMenu'
 };
 
 //App 6
-_app6Text = "Attach Chemlight";
+_app6Text = "ATTACH CHEMLIGHT";
 _app6Logo = getText (configfile >> "CfgMagazines" >> "Chemlight_green" >> "picture"); 
 app6_action = {
 	execVM "xm8Apps\AttachChemApp\attachChemlight.sqf";
 };
 
 //App 7
-_app7Text = "Player Scan";
+_app7Text = "PLAYER SCAN";
 _app7Logo = "xm8Apps\Player scan\radarLogo.paa";
 app7_action = {
   execVM "xm8Apps\Player scan\playerScan.sqf";
 };
 
 //App 8
-_app8Text = "App 8";
-_app8Logo = "";
+_app8Text = "SPAWN BIKE";
+_app8Logo = "xm8Apps\icons\bike.paa";
 app8_action = {
-
+  execVM "xm8Apps\apps\spawn_bike.sqf";
 };
 
-//App 9
-_app9Text = "App 9";
-_app9Logo = "";
-app9_action = {
 
+//App 9
+_app9Text = "SELFIE";
+_app9Logo = "xm8Apps\icons\selfie.paa";
+app9_action = {
+	execVM "xm8Apps\apps\selfie.sqf";
 };
 
 //App 10
-_app10Text = "App 10";
-_app10Logo = "";
+_app10Text = "AIR DROP";
+_app10Logo = "xm8Apps\icons\drop.paa";
 app10_action = {
-
+execVM "xm8Apps\apps\APOC_Airdrop_Assistance\APOC_Airdrop_Assistance_XM8.sqf";
 };
 
 //App 11

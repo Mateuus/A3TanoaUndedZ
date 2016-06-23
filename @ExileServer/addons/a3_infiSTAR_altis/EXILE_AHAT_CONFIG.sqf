@@ -45,7 +45,7 @@ if(worldName == 'Altis')then	/* using == instead of isEqualTo because == is not 
 		[[2998.0603,18175.479,0],325]
 	];
 };
-if(worldName == 'Esseker')then
+if(worldName == 'Tanoa')then
 {
 	_allowTP append
 	[
@@ -162,8 +162,8 @@ _CMC = true;	/* Check for custom CommandingMenus */
 _KCM = true;	/* Just close ALL CommandingMenus */
 _CAP = true;	/* Check Actions Plr - "Actions: xxx/xxx possible scroll menu hack (or you added custom actions..)" */
 _wall_look = false;	/* checks if a players tries to look through a wall (if player is allowed to build in that territory, it will not be logged.) */
-_wall_glitch_object = true;	/* checks if a players tries to glitch through a wall (if player is allowed to build in that territory, it will not be logged.) */
-_wall_glitch_vehicle = true;	/* stops people from glitching into bases using "eject" or "getout" of a vehicle.. */
+_wall_glitch_object = false;	/* checks if a players tries to glitch through a wall (if player is allowed to build in that territory, it will not be logged.) */
+_wall_glitch_vehicle = false;	/* stops people from glitching into bases using "eject" or "getout" of a vehicle.. */
 
 _maxMapMenuEntries = 6;	/* "Map Menu has been changed x entries found - Texts: y" incase you want to add some briefing to your map menu */
 
@@ -173,8 +173,8 @@ _check_steam_ban = false;	/* will announce and log steambanned players - using G
 _ban_for_steam_ban = false;	/* if "_check_steam_ban = true;" then steambanned players will get banned from your Arma server! */
 
 
-/*  Check Global Markers */ _CGM = true;	/* true or false */	/* you may need to disable this check for A.I. Missions - or whitelist the used Markers in the _aLocalM Array beneath */
-/*  Check Local Markers  */ _CLM = true;	/* true or false */	/* false if you do not want LocalMarker to be checked. */
+/*  Check Global Markers */ _CGM = false;	/* true or false */	/* you may need to disable this check for A.I. Missions - or whitelist the used Markers in the _aLocalM Array beneath */
+/*  Check Local Markers  */ _CLM = false;	/* true or false */	/* false if you do not want LocalMarker to be checked. */
 /*  Use _aLocalM array   */ _UMW = false;	/* true or false */	/* use allowed marker array from below (for example AltisLife uses house_ and others in there) or A.I. Missions */
 /* _aLocalM: if '_CLM' && _UMW - this array of names will be allowed */
 _aLocalM = ['TreasureMarker','MissionMarker'];

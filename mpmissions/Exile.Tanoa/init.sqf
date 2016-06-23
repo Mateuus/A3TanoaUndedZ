@@ -5,6 +5,8 @@ execVM "custom\acd_TB\run.sqf";
 [] execVM "AVS\AVS_fnc_init.sqf";
 //Activate DLC Heli
 [] execVM "scripts\Activatedlc.sqf";
+//Airdrop System
+[] execVM "custom\APOC_Airdrop_Assistance\init.sqf"; 
 //Extended Repairs
 JohnO_fnc_repairWheels = compileFinal preprocessFileLineNumbers "scripts\JohnO_fnc_repairWheels.sqf";
 JohnO_fnc_repairchopper = compileFinal preprocessFileLineNumbers "scripts\JohnO_fnc_repairchopper.sqf";
