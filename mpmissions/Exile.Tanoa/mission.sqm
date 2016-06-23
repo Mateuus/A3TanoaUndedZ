@@ -8,27 +8,25 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=110;
+		nextID=111;
 	};
 	class MarkerIDProvider
 	{
-		nextID=9;
+		nextID=10;
 	};
 	class Camera
 	{
-		pos[]={6957.124,14.823072,7224.1426};
-		dir[]={0.10273328,-0.46378425,-0.88002855};
-		up[]={0.053781208,0.88592875,-0.46069476};
-		aside[]={-0.99330962,-1.3508907e-007,-0.11595946};
+		pos[]={6987.9961,78.890289,7514.8521};
+		dir[]={-0.74592721,-0.47049883,-0.47152939};
+		up[]={-0.39773902,0.88237816,-0.25142586};
+		aside[]={-0.53436714,-2.9425428e-007,0.8453303};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-		"exile_client",
-		"A3_Ui_F",
-		"ryanzombies",
-		"ryanzombiesfunctions"
+	"exile_client",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
@@ -76,6 +74,23 @@ class Intro
 };
 class Mission
 {
+   class Markers
+    {
+        items=1;
+        class Item0
+        {
+            position[]={10025.323,0.042,11771.568};
+            name="TraderZoneSilderas";
+            text="Trader City";
+            markerType="ELLIPSE";
+            type="ExileTraderZone";
+            colorName="ColorBlue";
+            fillName="SolidBorder";
+            a=175;
+            b=175;
+            drawBorder=1;
+        };
+    };
 	class Intel
 	{
 		startWeather=0.30000001;
@@ -95,7 +110,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=8;
+		items=7;
 		class Item0
 		{
 			dataType="Marker";
@@ -122,6 +137,7 @@ class Mission
 			text="Vagalala";
 			type="ExileSpawnZone";
 			id=2;
+			atlOffset=-7.6293945e-006;
 		};
 		class Item3
 		{
@@ -153,26 +169,6 @@ class Mission
 		};
 		class Item6
 		{
-			dataType="Marker";
-			position[]=
-			{
-				6882.81,
-				0.00143886,
-				7476.19
-			};
-			name="AirportTanoaTrader";
-			text="Terminus";
-			markerType="ELLIPSE";
-			type="ExileTraderZone";
-			colorName="ColorBlue";
-			fillName="SolidBorder";
-			a=175;
-			b=175;
-			drawBorder=1;
-			id=6;
-		};
-		class Item7
-		{
 			dataType="Group";
 			side="Independent";
 			class Entities
@@ -195,6 +191,7 @@ class Mission
 					};
 					id=10;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item1
 				{
@@ -213,6 +210,7 @@ class Mission
 					};
 					id=11;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item2
 				{
@@ -231,6 +229,7 @@ class Mission
 					};
 					id=12;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item3
 				{
@@ -249,6 +248,7 @@ class Mission
 					};
 					id=13;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item4
 				{
@@ -267,7 +267,7 @@ class Mission
 					};
 					id=14;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=-1.1920929e-007;
+					atlOffset=1.1920929e-007;
 				};
 				class Item5
 				{
@@ -286,6 +286,7 @@ class Mission
 					};
 					id=15;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item6
 				{
@@ -304,6 +305,7 @@ class Mission
 					};
 					id=16;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item7
 				{
@@ -322,6 +324,7 @@ class Mission
 					};
 					id=17;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item8
 				{
@@ -340,6 +343,7 @@ class Mission
 					};
 					id=18;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item9
 				{
@@ -358,6 +362,7 @@ class Mission
 					};
 					id=19;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item10
 				{
@@ -376,6 +381,7 @@ class Mission
 					};
 					id=20;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item11
 				{
@@ -394,6 +400,7 @@ class Mission
 					};
 					id=21;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item12
 				{
@@ -412,6 +419,7 @@ class Mission
 					};
 					id=22;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item13
 				{
@@ -430,6 +438,7 @@ class Mission
 					};
 					id=23;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item14
 				{
@@ -448,6 +457,7 @@ class Mission
 					};
 					id=24;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item15
 				{
@@ -466,6 +476,7 @@ class Mission
 					};
 					id=25;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item16
 				{
@@ -484,6 +495,7 @@ class Mission
 					};
 					id=26;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item17
 				{
@@ -502,6 +514,7 @@ class Mission
 					};
 					id=27;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item18
 				{
@@ -520,6 +533,7 @@ class Mission
 					};
 					id=28;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item19
 				{
@@ -538,7 +552,7 @@ class Mission
 					};
 					id=29;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=-5.9604645e-008;
+					atlOffset=-7.7486038e-007;
 				};
 				class Item20
 				{
@@ -557,6 +571,7 @@ class Mission
 					};
 					id=30;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item21
 				{
@@ -575,6 +590,7 @@ class Mission
 					};
 					id=31;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item22
 				{
@@ -593,6 +609,7 @@ class Mission
 					};
 					id=32;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item23
 				{
@@ -611,6 +628,7 @@ class Mission
 					};
 					id=33;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item24
 				{
@@ -629,6 +647,7 @@ class Mission
 					};
 					id=34;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item25
 				{
@@ -647,6 +666,7 @@ class Mission
 					};
 					id=35;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item26
 				{
@@ -665,6 +685,7 @@ class Mission
 					};
 					id=36;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item27
 				{
@@ -683,6 +704,7 @@ class Mission
 					};
 					id=37;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item28
 				{
@@ -701,6 +723,7 @@ class Mission
 					};
 					id=38;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item29
 				{
@@ -719,6 +742,7 @@ class Mission
 					};
 					id=39;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item30
 				{
@@ -737,6 +761,7 @@ class Mission
 					};
 					id=40;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item31
 				{
@@ -755,6 +780,7 @@ class Mission
 					};
 					id=41;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item32
 				{
@@ -773,6 +799,7 @@ class Mission
 					};
 					id=42;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.7881393e-007;
 				};
 				class Item33
 				{
@@ -791,6 +818,7 @@ class Mission
 					};
 					id=43;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item34
 				{
@@ -809,7 +837,7 @@ class Mission
 					};
 					id=44;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=1.1920929e-007;
+					atlOffset=-5.9604645e-007;
 				};
 				class Item35
 				{
@@ -828,7 +856,7 @@ class Mission
 					};
 					id=45;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=-6.5565109e-007;
 				};
 				class Item36
 				{
@@ -847,6 +875,7 @@ class Mission
 					};
 					id=46;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item37
 				{
@@ -865,6 +894,7 @@ class Mission
 					};
 					id=47;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item38
 				{
@@ -883,6 +913,7 @@ class Mission
 					};
 					id=48;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item39
 				{
@@ -901,6 +932,7 @@ class Mission
 					};
 					id=49;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item40
 				{
@@ -919,7 +951,7 @@ class Mission
 					};
 					id=50;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=2.9802322e-007;
 				};
 				class Item41
 				{
@@ -938,7 +970,7 @@ class Mission
 					};
 					id=51;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=2.9802322e-007;
 				};
 				class Item42
 				{
@@ -957,7 +989,7 @@ class Mission
 					};
 					id=52;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=2.9802322e-007;
 				};
 				class Item43
 				{
@@ -976,6 +1008,7 @@ class Mission
 					};
 					id=53;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item44
 				{
@@ -994,6 +1027,7 @@ class Mission
 					};
 					id=54;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item45
 				{
@@ -1012,6 +1046,7 @@ class Mission
 					};
 					id=55;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item46
 				{
@@ -1030,6 +1065,7 @@ class Mission
 					};
 					id=56;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item47
 				{
@@ -1048,6 +1084,7 @@ class Mission
 					};
 					id=57;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item48
 				{
@@ -1066,6 +1103,7 @@ class Mission
 					};
 					id=58;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item49
 				{
@@ -1084,6 +1122,7 @@ class Mission
 					};
 					id=59;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item50
 				{
@@ -1102,6 +1141,7 @@ class Mission
 					};
 					id=60;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item51
 				{
@@ -1120,6 +1160,7 @@ class Mission
 					};
 					id=61;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item52
 				{
@@ -1138,6 +1179,7 @@ class Mission
 					};
 					id=62;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item53
 				{
@@ -1156,7 +1198,7 @@ class Mission
 					};
 					id=63;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=-6.5565109e-007;
 				};
 				class Item54
 				{
@@ -1175,6 +1217,7 @@ class Mission
 					};
 					id=64;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item55
 				{
@@ -1193,6 +1236,7 @@ class Mission
 					};
 					id=65;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item56
 				{
@@ -1211,6 +1255,7 @@ class Mission
 					};
 					id=66;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item57
 				{
@@ -1229,7 +1274,7 @@ class Mission
 					};
 					id=67;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=-5.9604645e-008;
+					atlOffset=-7.7486038e-007;
 				};
 				class Item58
 				{
@@ -1248,6 +1293,7 @@ class Mission
 					};
 					id=68;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item59
 				{
@@ -1266,7 +1312,7 @@ class Mission
 					};
 					id=69;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=-5.9604645e-008;
+					atlOffset=-7.7486038e-007;
 				};
 				class Item60
 				{
@@ -1284,6 +1330,7 @@ class Mission
 					};
 					id=70;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841858e-007;
 				};
 				class Item61
 				{
@@ -1302,6 +1349,7 @@ class Mission
 					};
 					id=71;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item62
 				{
@@ -1320,6 +1368,7 @@ class Mission
 					};
 					id=72;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item63
 				{
@@ -1338,7 +1387,7 @@ class Mission
 					};
 					id=73;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=5.9604645e-008;
+					atlOffset=-6.5565109e-007;
 				};
 				class Item64
 				{
@@ -1357,6 +1406,7 @@ class Mission
 					};
 					id=74;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item65
 				{
@@ -1375,6 +1425,7 @@ class Mission
 					};
 					id=75;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item66
 				{
@@ -1393,6 +1444,7 @@ class Mission
 					};
 					id=76;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item67
 				{
@@ -1411,6 +1463,7 @@ class Mission
 					};
 					id=77;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item68
 				{
@@ -1429,6 +1482,7 @@ class Mission
 					};
 					id=78;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item69
 				{
@@ -1447,6 +1501,7 @@ class Mission
 					};
 					id=79;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item70
 				{
@@ -1465,6 +1520,7 @@ class Mission
 					};
 					id=80;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item71
 				{
@@ -1483,6 +1539,7 @@ class Mission
 					};
 					id=81;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item72
 				{
@@ -1501,6 +1558,7 @@ class Mission
 					};
 					id=82;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item73
 				{
@@ -1519,6 +1577,7 @@ class Mission
 					};
 					id=83;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item74
 				{
@@ -1537,6 +1596,7 @@ class Mission
 					};
 					id=84;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item75
 				{
@@ -1555,6 +1615,7 @@ class Mission
 					};
 					id=85;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item76
 				{
@@ -1573,6 +1634,7 @@ class Mission
 					};
 					id=86;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item77
 				{
@@ -1591,6 +1653,7 @@ class Mission
 					};
 					id=87;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item78
 				{
@@ -1609,6 +1672,7 @@ class Mission
 					};
 					id=88;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item79
 				{
@@ -1627,6 +1691,7 @@ class Mission
 					};
 					id=89;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item80
 				{
@@ -1645,6 +1710,7 @@ class Mission
 					};
 					id=90;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item81
 				{
@@ -1663,6 +1729,7 @@ class Mission
 					};
 					id=91;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item82
 				{
@@ -1681,6 +1748,7 @@ class Mission
 					};
 					id=92;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item83
 				{
@@ -1699,6 +1767,7 @@ class Mission
 					};
 					id=93;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item84
 				{
@@ -1717,6 +1786,7 @@ class Mission
 					};
 					id=94;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item85
 				{
@@ -1735,6 +1805,7 @@ class Mission
 					};
 					id=95;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item86
 				{
@@ -1753,6 +1824,7 @@ class Mission
 					};
 					id=96;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item87
 				{
@@ -1771,6 +1843,7 @@ class Mission
 					};
 					id=97;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item88
 				{
@@ -1789,6 +1862,7 @@ class Mission
 					};
 					id=98;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item89
 				{
@@ -1807,6 +1881,7 @@ class Mission
 					};
 					id=99;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item90
 				{
@@ -1825,6 +1900,7 @@ class Mission
 					};
 					id=100;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item91
 				{
@@ -1842,6 +1918,7 @@ class Mission
 					};
 					id=101;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item92
 				{
@@ -1859,6 +1936,7 @@ class Mission
 					};
 					id=102;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item93
 				{
@@ -1877,6 +1955,7 @@ class Mission
 					};
 					id=103;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item94
 				{
@@ -1895,6 +1974,7 @@ class Mission
 					};
 					id=104;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item95
 				{
@@ -1913,6 +1993,7 @@ class Mission
 					};
 					id=105;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item96
 				{
@@ -1931,6 +2012,7 @@ class Mission
 					};
 					id=106;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item97
 				{
@@ -1949,6 +2031,7 @@ class Mission
 					};
 					id=107;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item98
 				{
@@ -1967,6 +2050,7 @@ class Mission
 					};
 					id=108;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 				class Item99
 				{
@@ -1985,12 +2069,14 @@ class Mission
 					};
 					id=109;
 					type="Exile_Unit_GhostPlayer";
+					atlOffset=-7.1525574e-007;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=9;
+			atlOffset=2.3841858e-007;
 		};
 	};
 };
