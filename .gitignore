@@ -32,3 +32,5 @@
 /config
 /logs
 /steamapps
+/TADST/exile/*.rpt
+/TADST/exile/*.log
