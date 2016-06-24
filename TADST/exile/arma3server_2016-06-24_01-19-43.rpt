@@ -1,0 +1,1447 @@
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\arma3server.exe
+== arma3server.exe   -port=2302 "-config=C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\TADST\exile\TADST_config.cfg" "-cfg=C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\TADST\wastelandStratis\TADST_basic.cfg" "-profiles=C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\TADST\exile" -name=exile -filePatching "-mod=@ExileServer;@extDB2;@Ryanzombies;@Exile;"
+
+Original output filename: Arma3Retail_Server
+Exe timestamp: 2016/06/21 16:46:31
+Current time:  2016/06/24 01:19:43
+
+Type: Public
+Build: Stable
+Version: 1.62.137126
+
+Allocator: C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\dll\tbb4malloc_bi.dll
+=====================================================================
+
+ 1:19:43 SteamAPI initialization failed. Steam features wont's be accessible!
+ 1:19:43 Cannot register unknown string STR_ACTION_VECTORING_ON
+ 1:19:43 Cannot register unknown string STR_ACTION_VECTORING_OFF
+ 1:19:43 Initializing stats manager.
+ 1:19:43 Stats config disabled.
+ 1:19:43 sessionID: e981baaea9cc21d356e3faaed2a623f513c31590
+ 1:19:51 Updating base class ->Wreck, by a3\data_f\config.bin/CfgVehicles/PlaneWreck/
+ 1:19:52 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/
+ 1:19:52 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/
+ 1:19:52 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/
+ 1:19:52 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/
+ 1:19:52 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/
+ 1:19:52 Updating base class BlendAnims->, by a3\anims_f\config\sdr\weaponswitching\config.bin/CfgMovesMaleSdr/BlendAnims/
+ 1:19:52 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/
+ 1:19:52 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/
+ 1:19:52 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/
+ 1:19:52 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/
+ 1:19:52 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/
+ 1:19:52 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/
+ 1:19:52 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/
+ 1:19:52 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/
+ 1:19:52 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/
+ 1:19:52 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/
+ 1:19:52 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/
+ 1:19:52 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/
+ 1:19:52 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/
+ 1:19:52 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/
+ 1:19:52 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/
+ 1:19:52 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/
+ 1:19:52 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/
+ 1:19:52 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/
+ 1:19:52 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/
+ 1:19:52 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/
+ 1:19:52 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/
+ 1:19:52 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/
+ 1:19:52 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/
+ 1:19:52 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/
+ 1:19:52 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/
+ 1:19:52 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/
+ 1:19:52 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/
+ 1:19:52 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/
+ 1:19:52 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/
+ 1:19:52 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/
+ 1:19:52 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/
+ 1:19:52 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/
+ 1:19:52 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/
+ 1:19:52 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscInGameUI/RscTaskOverview/controls/TaskOverviewAssigned/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/
+ 1:19:52 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/
+ 1:19:52 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/
+ 1:19:52 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/
+ 1:19:52 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/
+ 1:19:52 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/
+ 1:19:52 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/
+ 1:19:52 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/
+ 1:19:52 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/
+ 1:19:52 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/controls/ButtonCancel/
+ 1:19:52 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+ 1:19:52 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/
+ 1:19:52 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/
+ 1:19:52 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/
+ 1:19:52 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/
+ 1:19:52 Cannot update non class from class a3\ui_f\config.bin/RscCallSupport/Items/
+ 1:19:52 Cannot update non class from class a3\ui_f\config.bin/RscRadio/Items/
+ 1:19:52 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceMid/
+ 1:19:52 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceLong/
+ 1:19:52 Updating base class ->VehicleMagazine, by a3\weapons_f\config.bin/CfgMagazines/24Rnd_missiles/
+ 1:19:52 Updating base class ->RocketPods, by a3\weapons_f\config.bin/CfgWeapons/missiles_DAR/
+ 1:19:52 Updating base class ->All, by a3\sounds_f\config.bin/CfgVehicles/Sound/
+ 1:19:52 Updating base class ->BlendAnims, by a3\soft_f_kart\kart_01\config.bin/CfgMovesMaleSdr/BlendAnims/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisable/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisableTiles/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisable/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisableTiles/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisable/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisableTiles/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisable/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisableTiles/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisable/
+ 1:19:52 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisableTiles/
+ 1:19:52 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_2/Controls/
+ 1:19:52 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_6/Controls/
+ 1:19:53 Updating base class Turrets->, by a3\air_f_exp\heli_light_01\config.bin/CfgVehicles/Heli_Light_01_civil_base_F/Turrets/
+ 1:19:53 Updating base class B_Soldier_02_f->B_Soldier_base_F, by exile_client\config.bin/CfgVehicles/B_Story_SF_Captain_F/
+ 1:19:53 Updating base class RscStandardDisplay->, by exile_client\config.bin/RscDisplayMain/
+ 1:19:53 Updating base class RscStandardDisplay->, by exile_client\config.bin/RscDisplayMultiplayerSetup/
+ 1:19:53 Updating base class RscPicture->RscText, by exile_client\config.bin/RscDisplayVoiceChat/controls/Picture/
+ 1:19:53 Updating base class ->Car_F, by Exile_psycho_Gaz_volha\config.bin/CfgVehicles/volha_Base/
+ 1:19:53 Updating base class ->Ikarus_Civ_Base, by Exile_psycho_Ikarus\config.bin/CfgVehicles/Ikarus_Civ_01/
+ 1:19:53 Updating base class ->Car_F, by Exile_psycho_lada\config.bin/CfgVehicles/Lada_Base/
+ 1:19:53 Updating base class ->Landrover_civ, by Exile_psycho_LRC\config.bin/CfgVehicles/Landrover_Civ_02/
+ 1:19:53 Updating base class ->Landrover_civ, by Exile_psycho_LRC\config.bin/CfgVehicles/LR_Ambulance_Base/
+ 1:19:53 Updating base class ->Octavia_Base, by Exile_psycho_Octavia\config.bin/CfgVehicles/Octavia_Civ_01/
+ 1:19:53 Updating base class ->Car_F, by exile_psycho_tractor\config.bin/CfgVehicles/Tractor_Base/
+ 1:19:53 Updating base class ->Tractor_Base, by exile_psycho_tractor\config.bin/CfgVehicles/tractorOld/
+ 1:19:53 Updating base class ->Offroad_01_base_F, by Exile_Psycho_UAZ\config.bin/CfgVehicles/UAZ_Base/
+ 1:19:53 Updating base class ->UAZ_Base, by Exile_Psycho_UAZ\config.bin/CfgVehicles/UAZ_Open_Base/
+ 1:19:53 Updating base class ->UH1H_Closed, by Exile_psycho_UH1H\config.bin/CfgVehicles/UH1H_Clo/
+ 1:19:53 Updating base class ->UH1HL_base, by Exile_psycho_UH1H\config.bin/CfgVehicles/UH1H_M240/
+ 1:19:53 Updating base class ->Ural_Base, by Exile_psycho_Ural\config.bin/CfgVehicles/Ural_RU/
+ 1:19:53 Updating base class ->Ural_Open_Base, by Exile_psycho_Ural\config.bin/CfgVehicles/Ural_Open_RU/
+ 1:19:54 Initializing Steam Manager
+ 1:19:54 Steam Manager initialized.
+ 1:19:54 
+ 1:19:54 ==== Loaded addons ====
+ 1:19:54 
+ 1:19:54 dta\bin.pbo - unknown
+ 1:19:54 dta\core.pbo - 98397
+ 1:19:54 dta\languagecore_f.pbo - 101912
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\dbo_old_bike.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_assets.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_client.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_gaz_volha.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_ikarus.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_lada.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_lrc.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_octavia.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_suv_a3.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_towtractor.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_tractor.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_uaz.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_uh1h.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\exile_psycho_ural.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile\addons\gnt_c185.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Ryanzombies\addons\ryanzombies.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\a3xai.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\a3xai_config.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\a3_infistar_altis.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\a3_zcp_exile.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\avs.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\claimvehicles_server.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exad_core.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exad_grinding.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exad_hacking.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exad_vg.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exilez.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exile_server.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\exile_server_config.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer\addons\virtualgarage_server.pbo - unknown
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\air_f_exp.ebo - 101598
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\anims_f_exp.ebo - 101932
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\armor_f_exp.ebo - 101169
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\boat_f_exp.ebo - 101695
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\cargoposes_f_exp.ebo - 101458
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\characters_f_exp.ebo - 101883
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\data_f_exp.ebo - 101767
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp.ebo - 101169
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_chi.ebo - 101169
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_engfre.ebo - 101169
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\dubbing_radio_f_exp_data_fre.ebo - 101170
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\editorpreviews_f_exp.ebo - 101866
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\language_f_exp.ebo - 101781
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_data_exp.ebo - 101774
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka.ebo - 101781
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data.ebo - 101859
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers.ebo - 101860
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoabuka_data_layers_00_00.ebo - 101860
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\map_tanoa_scenes_f.ebo - 101568
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_exp.ebo - 101172
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\music_f_exp_music.ebo - 101172
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\props_f_exp.ebo - 101867
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\rocks_f_exp.ebo - 101780
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\soft_f_exp.ebo - 101833
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\sounds_f_exp.ebo - 101933
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\static_f_exp.ebo - 101619
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp.ebo - 101746
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_civilian.ebo - 101951
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_commercial.ebo - 101706
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_cultural.ebo - 101706
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_data.ebo - 101706
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_industrial.ebo - 101706
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\structures_f_exp_infrastructure.ebo - 101706
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\supplies_f_exp.ebo - 101783
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\ui_f_exp.ebo - 101912
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\vegetation_f_exp.ebo - 101532
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion\addons\weapons_f_exp.ebo - 101947
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\anims_f_mark.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\characters_f_mark.pbo - 100169
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\data_f_mark.pbo - 100892
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\dubbing_f_mark.pbo - 98398
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\dubbing_f_mp_mark.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\functions_f_mark.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\functions_f_mp_mark.pbo - 101937
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\languagemissions_f_mark.pbo - 101581
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\languagemissions_f_mp_mark.pbo - 101581
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\language_f_mark.pbo - 101576
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\language_f_mp_mark.pbo - 101577
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark_data.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mark_video.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mp_mark.pbo - 101567
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\missions_f_mp_mark_data.pbo - 99084
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\modules_f_mark.pbo - 99085
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\modules_f_mp_mark.pbo - 101459
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\music_f_mark.pbo - 98422
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\music_f_mark_music.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\sounds_f_mark.pbo - 99087
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\static_f_mark.pbo - 98423
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\structures_f_mark.pbo - 99089
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\supplies_f_mark.pbo - 99089
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\ui_f_mark.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\ui_f_mp_mark.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark\addons\weapons_f_mark.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\air_f_heli.pbo - 100981
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\anims_f_heli.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\boat_f_heli.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\cargoposes_f_heli.pbo - 101509
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\data_f_heli.pbo - 100892
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\dubbing_f_heli.pbo - 98398
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\functions_f_heli.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\languagemissions_f_heli.pbo - 101580
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\language_f_heli.pbo - 101582
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli.pbo - 100701
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli_data.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\missions_f_heli_video.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\modules_f_heli.pbo - 99085
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\music_f_heli.pbo - 98423
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\music_f_heli_music.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\soft_f_heli.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\sounds_f_heli.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\structures_f_heli.pbo - 101719
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\supplies_f_heli.pbo - 101719
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli\addons\ui_f_heli.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\anims_f_kart.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\characters_f_kart.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\data_f_kart.pbo - 100651
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\languagemissions_f_kart.pbo - 101581
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\language_f_kart.pbo - 101575
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\missions_f_kart.pbo - 100701
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\missions_f_kart_data.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\modules_f_kart.pbo - 99085
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\modules_f_kart_data.pbo - 99085
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\soft_f_kart.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\sounds_f_kart.pbo - 99086
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\structures_f_kart.pbo - 101717
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\ui_f_kart.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart\addons\weapons_f_kart.pbo - 99090
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\data_f_curator.pbo - 101811
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\functions_f_curator.pbo - 99082
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\language_f_curator.pbo - 101882
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\missions_f_curator.pbo - 101775
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\modules_f_curator.pbo - 99085
+ 1:19:54 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator\addons\ui_f_curator.pbo - 100702
+ 1:19:54 addons\3den.pbo - 102017
+ 1:19:54 addons\3den_language.pbo - 101831
+ 1:19:54 addons\a3.pbo - unknown
+ 1:19:54 addons\air_f.pbo - 99988
+ 1:19:54 addons\air_f_beta.pbo - 100272
+ 1:19:54 addons\air_f_epb.pbo - 99941
+ 1:19:54 addons\air_f_epc.pbo - 98395
+ 1:19:54 addons\air_f_gamma.pbo - 98395
+ 1:19:54 addons\animals_f.pbo - 100090
+ 1:19:54 addons\animals_f_beta.pbo - 100090
+ 1:19:54 addons\anims_f.pbo - 100288
+ 1:19:54 addons\anims_f_bootcamp.pbo - 99081
+ 1:19:54 addons\anims_f_data.pbo - 98480
+ 1:19:54 addons\anims_f_epa.pbo - 99082
+ 1:19:54 addons\anims_f_epc.pbo - 99082
+ 1:19:54 addons\anims_f_exp_a.pbo - 99908
+ 1:19:54 addons\armor_f.pbo - 99082
+ 1:19:54 addons\armor_f_beta.pbo - 101707
+ 1:19:54 addons\armor_f_epb.pbo - 99082
+ 1:19:54 addons\armor_f_epc.pbo - 99082
+ 1:19:54 addons\armor_f_gamma.pbo - 99082
+ 1:19:54 addons\baseconfig_f.pbo - 99080
+ 1:19:54 addons\boat_f.pbo - 99082
+ 1:19:54 addons\boat_f_beta.pbo - 99082
+ 1:19:54 addons\boat_f_epc.pbo - 101732
+ 1:19:54 addons\boat_f_gamma.pbo - 101732
+ 1:19:54 addons\cargoposes_f.pbo - 100772
+ 1:19:54 addons\characters_f.pbo - 101783
+ 1:19:54 addons\characters_f_beta.pbo - 101172
+ 1:19:54 addons\characters_f_bootcamp.pbo - 100169
+ 1:19:54 addons\characters_f_epa.pbo - 99082
+ 1:19:54 addons\characters_f_epb.pbo - 99082
+ 1:19:54 addons\characters_f_epc.pbo - 99082
+ 1:19:54 addons\characters_f_gamma.pbo - 99374
+ 1:19:54 addons\data_f.pbo - 101809
+ 1:19:54 addons\data_f_bootcamp.pbo - 100892
+ 1:19:54 addons\data_f_exp_a.pbo - 99082
+ 1:19:54 addons\data_f_exp_b.pbo - 98643
+ 1:19:54 addons\drones_f.pbo - 100981
+ 1:19:54 addons\dubbing_f.pbo - 98398
+ 1:19:54 addons\dubbing_f_beta.pbo - 98398
+ 1:19:54 addons\dubbing_f_bootcamp.pbo - 98398
+ 1:19:54 addons\dubbing_f_epa.pbo - 98398
+ 1:19:54 addons\dubbing_f_epb.pbo - 98398
+ 1:19:54 addons\dubbing_f_epc.pbo - 98398
+ 1:19:54 addons\dubbing_f_gamma.pbo - 98398
+ 1:19:54 addons\dubbing_radio_f.pbo - 99982
+ 1:19:54 addons\dubbing_radio_f_data_eng.pbo - 99078
+ 1:19:54 addons\dubbing_radio_f_data_engb.pbo - 99078
+ 1:19:54 addons\dubbing_radio_f_data_gre.pbo - 99078
+ 1:19:54 addons\dubbing_radio_f_data_per.pbo - 99078
+ 1:19:54 addons\dubbing_radio_f_data_vr.pbo - 99078
+ 1:19:54 addons\editorpreviews_f.pbo - 99556
+ 1:19:54 addons\editor_f.pbo - 99082
+ 1:19:54 addons\functions_f.pbo - 101934
+ 1:19:54 addons\functions_f_bootcamp.pbo - 101296
+ 1:19:54 addons\functions_f_epa.pbo - 99082
+ 1:19:54 addons\functions_f_epc.pbo - 99082
+ 1:19:54 addons\functions_f_exp_a.pbo - 99082
+ 1:19:54 addons\languagemissions_f.pbo - 101578
+ 1:19:54 addons\languagemissions_f_beta.pbo - 101578
+ 1:19:54 addons\languagemissions_f_bootcamp.pbo - 101579
+ 1:19:54 addons\languagemissions_f_epa.pbo - 101579
+ 1:19:54 addons\languagemissions_f_epb.pbo - 101580
+ 1:19:54 addons\languagemissions_f_epc.pbo - 101580
+ 1:19:54 addons\languagemissions_f_exp_a.pbo - 101580
+ 1:19:54 addons\languagemissions_f_gamma.pbo - 101580
+ 1:19:54 addons\language_f.pbo - 101755
+ 1:19:54 addons\language_f_beta.pbo - 101585
+ 1:19:54 addons\language_f_bootcamp.pbo - 100133
+ 1:19:54 addons\language_f_epa.pbo - 101583
+ 1:19:54 addons\language_f_epb.pbo - 101583
+ 1:19:54 addons\language_f_epc.pbo - 101581
+ 1:19:54 addons\language_f_exp_a.pbo - 101582
+ 1:19:54 addons\language_f_exp_b.pbo - 101582
+ 1:19:54 addons\language_f_gamma.pbo - 101583
+ 1:19:54 addons\map_altis.pbo - 100239
+ 1:19:54 addons\map_altis_data.pbo - 99740
+ 1:19:54 addons\map_altis_data_layers.pbo - 99901
+ 1:19:54 addons\map_altis_data_layers_00_00.pbo - 99901
+ 1:19:54 addons\map_altis_data_layers_00_01.pbo - 99901
+ 1:19:54 addons\map_altis_data_layers_01_00.pbo - 99901
+ 1:19:54 addons\map_altis_data_layers_01_01.pbo - 99901
+ 1:19:54 addons\map_altis_scenes_f.pbo - 101568
+ 1:19:54 addons\map_data.pbo - 100132
+ 1:19:54 addons\map_stratis.pbo - 100234
+ 1:19:54 addons\map_stratis_data.pbo - 99082
+ 1:19:54 addons\map_stratis_data_layers.pbo - 99082
+ 1:19:54 addons\map_stratis_scenes_f.pbo - 101568
+ 1:19:54 addons\map_vr.pbo - 98784
+ 1:19:54 addons\map_vr_scenes_f.pbo - 101569
+ 1:19:54 addons\misc_f.pbo - 99082
+ 1:19:54 addons\missions_f.pbo - 99082
+ 1:19:54 addons\missions_f_beta.pbo - 99082
+ 1:19:54 addons\missions_f_beta_data.pbo - 99082
+ 1:19:54 addons\missions_f_beta_video.pbo - 99082
+ 1:19:54 addons\missions_f_bootcamp.pbo - 99082
+ 1:19:54 addons\missions_f_bootcamp_data.pbo - 99082
+ 1:19:54 addons\missions_f_bootcamp_video.pbo - 99082
+ 1:19:54 addons\missions_f_data.pbo - 99082
+ 1:19:54 addons\missions_f_epa.pbo - 101083
+ 1:19:54 addons\missions_f_epa_data.pbo - 99082
+ 1:19:54 addons\missions_f_epa_video.pbo - 99082
+ 1:19:54 addons\missions_f_epb.pbo - 99082
+ 1:19:54 addons\missions_f_epc.pbo - 99082
+ 1:19:54 addons\missions_f_exp_a.pbo - 101566
+ 1:19:54 addons\missions_f_exp_a_data.pbo - 98702
+ 1:19:54 addons\missions_f_gamma.pbo - 99082
+ 1:19:54 addons\missions_f_gamma_data.pbo - 99082
+ 1:19:54 addons\missions_f_gamma_video.pbo - 99082
+ 1:19:54 addons\missions_f_video.pbo - 99084
+ 1:19:54 addons\modules_f.pbo - 98663
+ 1:19:54 addons\modules_f_beta.pbo - 99084
+ 1:19:54 addons\modules_f_beta_data.pbo - 99084
+ 1:19:54 addons\modules_f_bootcamp.pbo - 99085
+ 1:19:54 addons\modules_f_data.pbo - 99085
+ 1:19:54 addons\modules_f_epb.pbo - 99085
+ 1:19:54 addons\modules_f_exp_a.pbo - 99085
+ 1:19:54 addons\music_f.pbo - 99086
+ 1:19:54 addons\music_f_bootcamp.pbo - 98422
+ 1:19:54 addons\music_f_bootcamp_music.pbo - 99086
+ 1:19:54 addons\music_f_epa.pbo - 98422
+ 1:19:54 addons\music_f_epa_music.pbo - 99086
+ 1:19:54 addons\music_f_epb.pbo - 98422
+ 1:19:54 addons\music_f_epb_music.pbo - 99086
+ 1:19:54 addons\music_f_epc.pbo - 98423
+ 1:19:54 addons\music_f_epc_music.pbo - 99086
+ 1:19:54 addons\music_f_music.pbo - 99086
+ 1:19:54 addons\plants_f.pbo - 98423
+ 1:19:54 addons\props_f_exp_a.pbo - 99086
+ 1:19:54 addons\roads_f.pbo - 98423
+ 1:19:54 addons\rocks_f.pbo - 101831
+ 1:19:54 addons\signs_f.pbo - 99349
+ 1:19:54 addons\soft_f.pbo - 98851
+ 1:19:54 addons\soft_f_beta.pbo - 99086
+ 1:19:54 addons\soft_f_bootcamp.pbo - 99086
+ 1:19:54 addons\soft_f_epc.pbo - 99086
+ 1:19:54 addons\soft_f_gamma.pbo - 100005
+ 1:19:54 addons\sounds_f.pbo - 101933
+ 1:19:54 addons\sounds_f_arsenal.pbo - 99086
+ 1:19:54 addons\sounds_f_bootcamp.pbo - 99086
+ 1:19:54 addons\sounds_f_characters.pbo - 101934
+ 1:19:54 addons\sounds_f_environment.pbo - 101781
+ 1:19:54 addons\sounds_f_epb.pbo - 99086
+ 1:19:54 addons\sounds_f_epc.pbo - 99086
+ 1:19:54 addons\sounds_f_exp_a.pbo - 99086
+ 1:19:54 addons\sounds_f_sfx.pbo - 99087
+ 1:19:54 addons\sounds_f_vehicles.pbo - 101781
+ 1:19:54 addons\static_f.pbo - 101412
+ 1:19:54 addons\static_f_beta.pbo - 98423
+ 1:19:54 addons\static_f_gamma.pbo - 98423
+ 1:19:54 addons\structures_f.pbo - 101820
+ 1:19:54 addons\structures_f_bootcamp.pbo - 101830
+ 1:19:54 addons\structures_f_data.pbo - 100167
+ 1:19:54 addons\structures_f_epa.pbo - 99891
+ 1:19:54 addons\structures_f_epb.pbo - 101868
+ 1:19:54 addons\structures_f_epc.pbo - 101721
+ 1:19:54 addons\structures_f_exp_a.pbo - 99087
+ 1:19:54 addons\structures_f_households.pbo - 101820
+ 1:19:54 addons\structures_f_ind.pbo - 101820
+ 1:19:54 addons\structures_f_mil.pbo - 101830
+ 1:19:54 addons\structures_f_wrecks.pbo - 99089
+ 1:19:54 addons\uifonts_f.pbo - 99090
+ 1:19:54 addons\uifonts_f_data.pbo - 99090
+ 1:19:54 addons\ui_f.pbo - 101985
+ 1:19:54 addons\ui_f_bootcamp.pbo - 101548
+ 1:19:54 addons\ui_f_data.pbo - 101941
+ 1:19:54 addons\ui_f_exp_a.pbo - 99090
+ 1:19:54 addons\weapons_f.pbo - 101943
+ 1:19:54 addons\weapons_f_beta.pbo - 101559
+ 1:19:54 addons\weapons_f_bootcamp.pbo - 99090
+ 1:19:54 addons\weapons_f_epa.pbo - 99090
+ 1:19:54 addons\weapons_f_epb.pbo - 99090
+ 1:19:54 addons\weapons_f_epc.pbo - 99090
+ 1:19:54 addons\weapons_f_gamma.pbo - 99090
+ 1:19:54 
+ 1:19:54 =======================
+ 1:19:54 
+ 1:19:54 ============================================================================================= List of mods ===============================================================================================
+ 1:19:54 modsReadOnly = true
+ 1:19:54 safeModsActivated = false
+ 1:19:54 customMods = true
+ 1:19:54 hash = 'C0B746D2DE10F3EC5342187A312FD3B8D721283A'
+ 1:19:54 hashShort = '238956af'
+ 1:19:54                                               name |               modDir |    default |               origin |                                     hash | hashShort | fullPath
+ 1:19:54 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1:19:54                                          Exile Mod |               @Exile |      false |             GAME DIR | 2aca2920ea6f52c1cbdcbdf7c7d2efc44c90442d |  3197fd66 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Exile
+ 1:19:54                            Ryan's Zombies & Demons |         @Ryanzombies |      false |             GAME DIR | 9439c7ffe34403657997eac04e10bb889d81d3c6 |  ff6bd66c | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@Ryanzombies
+ 1:19:54                                            @extDB2 |              @extDB2 |      false |             GAME DIR |                                          |           | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@extDB2
+ 1:19:54                                       @ExileServer |         @ExileServer |      false |             GAME DIR | 2037ab47b99cb45fb1dcd59a968722382376340c |  b5c2377e | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@ExileServer
+ 1:19:54                                  Arma 3 DLC Bundle |            dlcbundle |       true |            NOT FOUND |                                          |           | 
+ 1:19:54                                        Arma 3 Apex |            expansion |       true |             GAME DIR | 338faf5474eea7bf074342f16ca5fe51f0724820 |   edaadd3 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\expansion
+ 1:19:54                                    Arma 3 Marksmen |                 mark |       true |             GAME DIR | 20c372e57bbd3e217c23d26562cc577704b34165 |  61594a48 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\mark
+ 1:19:54                                 Arma 3 Helicopters |                 heli |       true |             GAME DIR | deda8dc7c96b6a15385716863fb5f31141de37f2 |  c59695a2 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\heli
+ 1:19:54                                       Arma 3 Karts |                 kart |       true |             GAME DIR | 4fb15afff5badc36ab7451067275e79277e08ba0 |  6b9efa2d | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\kart
+ 1:19:54                                        Arma 3 Zeus |              curator |       true |             GAME DIR | 1adc690c986447d452f63a956893a12d204a8cf4 |  6e5d3b26 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\curator
+ 1:19:54                                             Arma 3 |                   A3 |       true |            NOT FOUND |                                          |           | 
+ 1:19:54 ==========================================================================================================================================================================================================
+ 1:19:54 InitSound ...
+ 1:19:54 InitSound - complete
+ 1:19:54 PhysX3 SDK Init started ...
+ 1:19:54 PhysX3 SDK Init ended.
+ 1:19:55 Warning Message: Script \A3XAI\init\client\fn_preStart.sqf not found
+ 1:19:55 Attempt to override final function - rscminimap_script
+ 1:19:55 Attempt to override final function - rscdisplayloading_script
+ 1:19:55 Attempt to override final function - rscdisplayloading_script
+ 1:19:55 Attempt to override final function - rscdisplayloading_script
+ 1:19:55 Attempt to override final function - rscdiary_script
+ 1:19:55 Attempt to override final function - rscdisplaysinglemission_script
+ 1:19:55 Attempt to override final function - rscdiary_script
+ 1:19:56 Attempt to override final function - rscdisplayremotemissions_script
+ 1:19:56 Attempt to override final function - rscdisplayloading_script
+ 1:19:56 Attempt to override final function - rscdiary_script
+ 1:19:56 Attempt to override final function - rscdiary_script
+ 1:19:56 Attempt to override final function - rscdisplaystrategicmap_script
+ 1:19:56 Attempt to override final function - rscdisplaycommon_script
+ 1:19:56 Attempt to override final function - rscdisplaygarage_script
+ 1:19:56 Attempt to override final function - rscdisplayhostsettings_script
+ 1:19:56 Attempt to override final function - rscdisplayloading_script
+ 1:19:56 Attempt to override final function - rscdisplaycurator_script
+ 1:19:56 Attempt to override final function - display3deneditcomposition_script
+ 1:19:56 Attempt to override final function - display3deneditattributes_script
+ 1:19:56 Attempt to override final function - display3deneditattributes_script
+ 1:19:56 Attempt to override final function - rscdisplayhostsettings_script
+ 1:19:56 Attempt to override final function - rscdisplaycommon_script
+ 1:19:56 Attempt to override final function - rscdisplaydebriefing_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:56 Attempt to override final function - rscunitinfo_script
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.scope'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: Error: creating weapon GunParticles with scope=private
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.displayName'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.nameSound'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.type'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.picture'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.Library'.
+ 1:19:57 Warning Message: No entry '.libTextDesc'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.model'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.simulation'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.fireLightDuration'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.fireLightIntensity'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.fireLightDiffuse'.
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.fireLightAmbient'.
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.weaponLockDelay'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.weaponLockSystem'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.cmImmunity'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.weight'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.lockingTargetSound'.
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.lockedTargetSound'.
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.detectRange'.
+ 1:19:57 Warning Message: '/' is not a value
+ 1:19:57 Warning Message: No entry 'bin\config.bin/CfgWeapons/GunParticles.muzzles'.
+ 1:19:57 Warning Message: Size: '/' not an array
+ 1:19:58 Initializing Steam server - Game Port: 2302, Steam Query Port: 2303
+ 1:19:58 Steam AppId from steam_appid.txt: 107410
+ 1:19:59 Connected to Steam servers
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:27 Server error: Player without identity Mateuus (id 998327317)
+ 1:30:39 Starting mission:
+ 1:30:39  Mission file: Exile
+ 1:30:39  Mission world: Tanoa
+ 1:30:39  Mission directory: mpmissions\Exile.Tanoa\
+ 1:30:45 No more slot to add connection at 015030 (1523.6,3012.8)
+ 1:30:46 Warning: Unaccessible ladder point for AI (already used for actionbegin2) in a3\structures_f_exp\commercial\shop_city_01\shop_city_01_f.p3d
+ 1:30:46 Warning: Unaccessible ladder point for AI (already used for actionbegin2) in a3\structures_f_exp\commercial\shop_city_01\shop_city_01_f.p3d
+ 1:30:46 Warning: Unaccessible ladder point for AI (already used for actionend2) in a3\structures_f_exp\commercial\shop_city_01\shop_city_01_f.p3d
+ 1:30:46 Warning: Unaccessible ladder point for AI (already used for actionend2) in a3\structures_f_exp\commercial\shop_city_01\shop_city_01_f.p3d
+ 1:30:48 Unknown hit sound type in A3\data_f\Penetration\tyre.bisurf.soundHit
+ 1:30:57 Attempt to override final function - bis_functions_list
+ 1:30:57 Attempt to override final function - bis_functions_listpreinit
+ 1:30:57 Attempt to override final function - bis_functions_listpostinit
+ 1:30:57 Attempt to override final function - bis_functions_listrecompile
+ 1:30:57 "exile/BIS_fnc_log: [BIS_fnc_preload] ----- Initializing scripts in Exile -----"
+ 1:30:57 "exile/BIS_fnc_log: [recompile] recompile BIS_fnc_missionTasksLocal"
+ 1:30:57 Attempt to override final function - bis_fnc_missiontaskslocal
+ 1:30:57 "exile/BIS_fnc_log: [recompile] recompile BIS_fnc_missionConversationsLocal"
+ 1:30:57 Attempt to override final function - bis_fnc_missionconversationslocal
+ 1:30:57 "exile/BIS_fnc_log: [recompile] recompile BIS_fnc_missionFlow"
+ 1:30:57 Attempt to override final function - bis_fnc_missionflow
+ 1:30:57 "exile/BIS_fnc_log: [preInit] BIS_fnc_feedbackMain (1.0376 ms)"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] BIS_fnc_missionHandlers (0 ms)"
+ 1:30:57 "AVS - Loading AVS version: 1.3.1"
+ 1:30:57 "AVS - World Detected: Tanoa"
+ 1:30:57 "AVS - Hooked ExileServer_object_player_createBambi to redirect to AVS\hooks\AVS_player_createBambi.sqf | Was pointing to exile_server\code\ExileServer_object_player_createBambi.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_player_database_load to redirect to AVS\hooks\AVS_player_database_load.sqf | Was pointing to fixes\ExileServer_object_player_database_load.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_vehicle_createNonPersistentVehicle to redirect to AVS\hooks\AVS_createNonPersistentVehicle.sqf | Was pointing to exile_server\code\ExileServer_object_vehicle_createNonPersistentVehicle.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_vehicle_createPersistentVehicle to redirect to AVS\hooks\AVS_createPersistentVehicle.sqf | Was pointing to exile_server\code\ExileServer_object_vehicle_createPersistentVehicle.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_vehicle_database_insert to redirect to AVS\hooks\AVS_vehicle_database_insert.sqf | Was pointing to exile_server\code\ExileServer_object_vehicle_database_insert.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_vehicle_database_update to redirect to AVS\hooks\AVS_vehicle_database_update.sqf | Was pointing to fixes\ExileServer_object_vehicle_database_update.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_object_vehicle_database_load to redirect to AVS\hooks\AVS_vehicle_database_load.sqf | Was pointing to fixes\ExileServer_object_vehicle_database_load.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_system_database_connect to redirect to AVS\hooks\AVS_system_database_connect.sqf | Was pointing to exile_server\code\ExileServer_system_database_connect.sqf"
+ 1:30:57 "AVS - Hooked ExileServer_world_initialize to redirect to AVS\hooks\AVS_world_initialize.sqf | Was pointing to exile_server\code\ExileServer_world_initialize.sqf"
+ 1:30:57 "AVS - Rearm system active."
+ 1:30:57 "AVS - Refuel system active."
+ 1:30:57 "AVS - Fill Canister Active."
+ 1:30:57 "AVS - Initialized."
+ 1:30:57 "exile/BIS_fnc_log: [preInit] AVS_fnc_preInit (11.9629 ms)"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] BIS_fnc_getServerVariable (0 ms)"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] RyanZM_fnc_rzfunctionsdefines (1.0376 ms)"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] ExileClient_fnc_preInit (281.982 ms)"
+ 1:30:57 Attempt to override final function - exileserver_object_player_createbambi
+ 1:30:57 Attempt to override final function - exileserver_object_player_database_load
+ 1:30:57 Attempt to override final function - exileserver_object_vehicle_createnonpersistentvehicle
+ 1:30:57 Attempt to override final function - exileserver_object_vehicle_createpersistentvehicle
+ 1:30:57 Attempt to override final function - exileserver_object_vehicle_database_insert
+ 1:30:57 Attempt to override final function - exileserver_object_vehicle_database_load
+ 1:30:57 Attempt to override final function - exileserver_object_vehicle_database_update
+ 1:30:57 Attempt to override final function - exileserver_system_database_connect
+ 1:30:57 Attempt to override final function - exileserver_world_initialize
+ 1:30:57 "ExileServer - Server is loading..."
+ 1:30:57 Client: Nonnetwork object 3965a800.
+ 1:30:57 "AVS - Connected to database!"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] ExileServer_fnc_preInit (194.031 ms)"
+ 1:30:57 "Virtual Garage: [PreInit] : Virtual Garage preInit Loaded"
+ 1:30:57 "exile/BIS_fnc_log: [preInit] VirtualGarageServer_fnc_preInit (2.01416 ms)"
+ 1:30:57 "<infiSTAR.de> 0 - STARTUP - including AdminTools"
+ 1:30:57 "<infiSTAR.de> 0 - STARTUP - AdminTools included!"
+ 1:30:57 "<infiSTAR.de> 0 - STARTUP - including AntiHack"
+ 1:30:57 "<infiSTAR.de> VERSION: 06112015 infiSTAR.de AHAT (v0016F)"
+ 1:30:57 "<infiSTAR.de> 0 - STARTING"
+ 1:30:57 "<infiSTAR.de> _fnc_RandomGen: {
+_fnc_actualGen = {
+_abc = ['z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a'];
+_gen = _abc select (random ((count _abc)-1));
+_arr = ['p','C','E','Q','e','H','c','R','E','G','w','k','N','L','c','H','B','D','s','d','k','K','f','B','y','q','J','B','z','Y'];
+_arrL = count _arr;_arrL = _arrL - 1;
+_randmax = {((round(random _randminval)) + (round(random _randmaxval))) max _randminval};
+for '_i' from 0 to (call _randmax)do
+{
+_gen = _gen + str(ceil(random 9)) + (_arr select (floor(random _arrL)));
+};
+};
+_gen = '';
+while{_gen=='' || _gen in _allRandomGenVars}do{
+call _fnc_actualGen;
+};
+_allRandomGenVars pushBack _gen;
+_gen
+}"
+ 1:30:57 Unable to get file version size: .\ARMA_LOG.dll
+ 1:30:57 "<infiSTAR.de>RandomVarLog| ----START-LINE----   (06112015-(v0016F)) (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _FNC_AH_KICKLOG: h4d4k5w4K7s1B6B7Q1E4H2C4e1B3s5H3c (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _FNC_AH_KICKLOGSPAWN: g1C8L5d4B2D2H3k2D2z2E6E2k4z2p4H6B5p3D8c1k2H3w (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _BigTokenArray: k4B6e3E6d7s8z7k2R8Q2c9L6c7c1c5q2B8C2d2N8d (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _replaceOnCD: y3B3f9H4E2E4p7B3k2N2B1G7p1J8Q7k3E3B4D6D4s3R2Q7C (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _onPlayerConnected: r8k2E3e3e7d1H1R6C9N6Q7c5B1k7c (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _server_setTokenR: e8z3k5H3E5J2B9G8K1K4e7d8Q3y3G4N4p7p (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _fnc_pvc_token: y1q6e3G9D1p9w3H1G6z3k2H6s1H6c6R6K1k8y3E5E1k8K7w6w8H5R5B9s (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _server_checkTokenR: u3w7H2p3J7G9p3w6s4y8H1B9R1Q7z9D4Q7N6J6c8y8N7c3k2B4G2Q9s (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _TokenCT: p7J1z2B8q7e7s4B6c3D4c6w (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _adminStartupCode: g1E5q8s5C4f6e2w6q3k7y6c (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_MAIN_BLOCK: e6R9H7L1E5k8E2c3R4N8B1c (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AHKickOFF: r5E9H5B8B7e7e4Q4e2p1C1D1L4K7p7Q2L9s1c6K2Q (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AHKickLog: y2z9f1q9G8C6d2c8E7K1C1s3d9Q4s6d6y1H7H7c5N8f (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_RunCheckENDVAR: d7B5H3d1B7q2B5w1B3B6C4R9G3y7c5B3J2H3K3H7B1d7f (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_RunCheck: k1H2k3k3B3e1R5C6f6c9k5J6f3p1D7H8B9c6w9K (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_HackLogArrayRND: y9q2f8c8B1q5B2H5D6k6c4B7q2H5C7D9q1y4w8k2N2c1E6N3e3w (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_SurvLogArrayRND: i1w4N4f7L7c8f9L4D3L9Q2R (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AH_AdmiLogArrayRND: w2s5E3H7H5K1p8Q4B1q6L1Q4B2f (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _TMPBAN: n6E3E1D2p9C6B5E3E2B2d9p6H6E3f9J2E7e6c (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _AHpos: v2z8k1s9R5B6s9G7C2B9N3B (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _adminsA: t3N7y8G6y9R5w8B5k1B8B8c6z3J4z6k4B3N5N8k5Q4C8q1R5C8k2f (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _MCS: h9H6f5E4H6B3k5q4E8q6c9J (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _vartc: g9N7D7D4q8R9k3e5s2H8e6w6d8B (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _LogicVariable: e9H7N6R4p9G4e6Q1B1C1K6J (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _vehicle_needs_check: m7e7G7E4D8N9s3c3e8B4y9e5e9p3k9c3L3K1H (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _t1: n5L1N6J8k6y6N1C9H1k3k3w (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _t2: s1B2c5J7L3z5H3H8L4B3B6B (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _t3: n7B3D1q4B7N7B9B6p3E9B1K2z5D2k7N6E7d2D1E1Q2H7D5H (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _t4: a7D3e1w1L4y9E9D6q2e2w9N (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| _t5: p5C3H8c9Q8L1s5w4w2k1q6R4c1k3K3w8k4H3H3C9B8R3Q2p8E (v0016F)"
+ 1:30:57 "<infiSTAR.de>RandomVarLog| ----END-LINE----   (06112015-(v0016F)) (v0016F)"
+ 1:30:57 "<infiSTAR.de> 0 - loading AntiHack.."
+ 1:30:57 "<infiSTAR.de> 0 - Thread MAIN: none-threaded code compiled and/or sent!"
+ 1:30:57 "<infiSTAR.de> 0 - VoteTimeServer compiled"
+ 1:30:57 "<infiSTAR.de> 0 - Thread BEFORE MAIN: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - Thread BEFORE MAIN: added !"
+ 1:30:57 "<infiSTAR.de> 0 - infiSTAR_PlayerLog: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - infiSTAR_PlayerLog: added !"
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOG: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOG: added !"
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReqReal: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReqReal: added !"
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReq: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReq: added !"
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOGSPAWN: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOGSPAWN: added !"
+ 1:30:57 "<infiSTAR.de> 0 - adminStartupCode: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - adminStartupCode: added !"
+ 1:30:57 "<infiSTAR.de> 0 - AH_MAIN_BLOCK: adding to _string.."
+ 1:30:57 "<infiSTAR.de> 0 - AH_MAIN_BLOCK: added !"
+ 1:30:57 "<infiSTAR.de> 0 - Thread #1: Preparing Server Loop #1.."
+ 1:30:57 "<infiSTAR.de> 0 - Thread #1: added !"
+ 1:30:57 "<infiSTAR.de> 0 - compiling AntiHack"
+ 1:30:57 "<infiSTAR.de> 0 - Thread BEFORE MAIN: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - infiSTAR_PlayerLog: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOG: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReqReal: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - fnc_AdminReq: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - FNC_AH_KICKLOGSPAWN: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - adminStartupCode: still compiling..."
+ 1:30:57 "<infiSTAR.de> 0 - Thread MAIN: compiling adminStartupCode"
+ 1:30:58 "<infiSTAR.de> 0 - AH_MAIN_BLOCK: still compiling..."
+ 1:30:58 "<infiSTAR.de> 0 - AntiHack loaded!"
+ 1:30:58 "<infiSTAR.de> 0 - STARTUP - AntiHack included!"
+ 1:30:58 "exile/BIS_fnc_log: [preInit] a3_infiSTAR_Exile_fnc_preInit (93.9941 ms)"
+ 1:30:58 "[A3XAI] Initializing A3XAI version 0.2.1 using base path A3XAI."
+ 1:30:58 "[A3XAI] Compiling A3XAI functions."
+ 1:30:58 "[A3XAI] A3XAI functions compiled."
+ 1:30:58 "[A3XAI] Loaded all A3XAI settings in 0.0119629 seconds."
+ 1:30:58 "[A3XAI] A3XAI settings: Debug Level: 0. WorldName: tanoa. VerifyClassnames: true. VerifySettings: true."
+ 1:30:58 "[A3XAI] AI spawn settings: Static: true. Dynamic: true. Random: true. Air: false. Land: false. UAV: false. UGV: false."
+ 1:30:58 "[A3XAI] A3XAI loading completed in 0.0130005 seconds."
+ 1:30:58 "exile/BIS_fnc_log: [preInit] A3XAI_fnc_A3XAI_init (195.007 ms)"
+ 1:30:58 "exile/BIS_fnc_log: [preInit] ClaimVehicles_Server_fnc_preInit (0.976563 ms)"
+ 1:30:58 Loading movesType CfgGesturesMale
+ 1:30:58 MovesType CfgGesturesMale load time 124 ms
+ 1:30:58 Loading movesType CfgMovesMaleSdr
+ 1:30:58 bin\config.bin/CfgMovesMaleSdr/States/UnconsciousReviveMedic.InterpolateTo: item count not multiple of 2 (is 11)
+ 1:31:04 Animation a3\cargoposes_f\anim\passenger_flatground_leanleft_kia.rtm not found or empty
+ 1:31:04 Animation a3\cargoposes_f\anim\passenger_flatground_leanright_kia.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2aimtopistol_end.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2aimunarmed_tobinoc_end.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2aimunarmed_frombinoc_end.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2aimlauncher1.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2idlelauncher1.rtm not found or empty
+ 1:31:06 Animation a3\cargoposes_f_heli\anim\vehicle_passenger_stand_2aimlauncher_reload.rtm not found or empty
+ 1:31:06 Error: Bone cheek_lf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone nose_tip doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_uplb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_ls doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_uplf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lc doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lwlb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lwlf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_lm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_lb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lwm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_upm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone ear_l doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone corr doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone tongue_m doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone tongue_f doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_lb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_lf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_lm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_lm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eye_upl doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eye_lwl doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_l doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_lb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_lt doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone nose_l doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_lm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone nose_r doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone forehead_r doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone forehead_m doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone forehead_l doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_rb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eye_lwr doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_r doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_rt doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_rm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_rf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone cheek_rm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_rm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_rf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eye_upr doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone eyebrow_rb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone tongue_b doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone ear_r doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone neck_l doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_uprf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone neck_r doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_uprb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_rc doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lwrb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone lip_lwrf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone neck_b doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone zig_rb doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone neck_t doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_rf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_lf doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone chin doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_rm doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw_rs doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone jaw doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Error: Bone headcutscene doesn't exist in skeleton OFP2_ManSkeleton
+ 1:31:06 Animation exile_psycho_tractor\anim\exile_psycho_tractor.rtm not found or empty
+ 1:31:06 MovesType CfgMovesMaleSdr load time 8227 ms
+ 1:31:06 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 starting"
+ 1:31:06 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 - waiting for Logic #1"
+ 1:31:06 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 - waiting for Logic #1"
+ 1:31:06 "<infiSTAR.de> 0 - Thread #1: Server Loop #1 looping now!"
+ 1:31:06 "exile/BIS_fnc_log: [script] initServer.sqf"
+ 1:31:06 "exile/BIS_fnc_log: [postInit] BIS_fnc_missionFlow (0 ms)"
+ 1:31:06 "exile/BIS_fnc_log: [postInit] BIS_fnc_initParams (0 ms)"
+ 1:31:06 "exile/BIS_fnc_log: [postInit] BIS_fnc_initRespawn (0 ms)"
+ 1:31:06 "exile/BIS_fnc_log: [postInit] BIS_fnc_reviveInit (0 ms)"
+ 1:31:06 c:\w\stable\futura\lib\network\networkserver.cpp NetworkServer::OnClientStateChanged:NOT IMPLEMENTED - briefing!
+ 1:31:06 "APOC_Airdrop_Assistance functions compiled on Server"
+ 1:31:06 "### ACD: acd_TB_config.sqf: configuration successfully loaded ###"
+ 1:31:06 "### ACD: call compile preprocessFile acd_TB_WEST_BRIDGE_props.sqf ###"
+ 1:31:06 "### ACD: call compile preprocessFile acd_TB_SOUTH_BRIDGE_props.sqf ###"
+ 1:31:06 Attempt to override final function - avs_fnc_getconfigloadout
+ 1:31:06 "AVS Rearm System active."
+ 1:31:06 "AVS Refuel System active."
+ 1:31:06 "AVS Fill Canister active."
+ 1:31:06 "AVS - Mission code initialized."
+ 1:31:06 "-- LOOTSPAWNER initialise ------------------------"
+ 1:31:07 "-- LOOTSPAWNER spawnBuilding_list ready, d: 0s"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_Shop_Town_04_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_House_Big_05_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_Shed_07_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_QuayConcrete_01_20m_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_FuelStation_01_pump_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_Addon_01_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_PierConcrete_01_16m_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_SCF_01_warehouse_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_WaterTower_01_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_FuelStation_02_pump_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_Shed_01_F has no building positions --"
+ 1:31:07 "-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: Land_ReservoirTower_F has no building positions --"
+ 1:31:07 "-- LOOTSPAWNER Buildingpositions_list ready, d: 0s"
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_Press_F."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_BandollierB_blk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_BandollierB_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_BandollierB_rgr."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_Chestrig_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_Chestrig_rgr."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_HarnessO_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_HarnessOGL_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes0 array: V_HarnessOSpec_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_Press_F."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_TacVest_blk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_TacVest_camo."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_TacVest_oli."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_TacVestIR_blk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_BandollierB_blk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_BandollierB_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_BandollierB_rgr."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_Chestrig_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_Chestrig_rgr."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_HarnessO_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_HarnessOGL_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes1 array: V_HarnessOSpec_gry."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes2 array: V_TacVest_blk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes2 array: V_TacVest_brn."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes2 array: V_TacVest_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes2 array: V_TacVestCamo_khk."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes2 array: V_I_G_resistanceLeader_F."
+ 1:31:08 "[A3XAI] Removing invalid vest classname from A3XAI_vestTypes3 array: V_TacVest_blk_POLICE."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_blk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_blu."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_khaki_specops_UK."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_press."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Cap_tan."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Watchcap_blk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Watchcap_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_MilCap_blue."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_MilCap_mcamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_MilCap_oucamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Bandanna_camo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Bandanna_gry."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Bandanna_khk_hs."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Bandanna_sgg."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Booniehat_dgtl."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Booniehat_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Booniehat_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Booniehat_mcamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Hat_blue."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Hat_camo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Hat_grey."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_StrawHat."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Beret_02."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Beret_blk_POLICE."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Beret_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Beret_ocamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Shemag_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_Shemag_olive_hs."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_ShemagOpen_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes0 array: H_TurbanO_blk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_blk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_blu."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_khaki_specops_UK."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_press."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Cap_tan."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Watchcap_blk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Watchcap_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_MilCap_blue."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_MilCap_mcamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_MilCap_oucamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Bandanna_camo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Bandanna_gry."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Bandanna_khk_hs."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Bandanna_sgg."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Booniehat_dgtl."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Booniehat_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Booniehat_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Booniehat_mcamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Hat_blue."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Hat_camo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Hat_grey."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_StrawHat."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Beret_02."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Beret_blk_POLICE."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Beret_grn."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Beret_ocamo."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Shemag_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_Shemag_olive_hs."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_ShemagOpen_khk."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes1 array: H_TurbanO_blk."
+ 1:31:08 "[CfgWeapons] Removing invalid headgear classname from A3XAI_headgearTypes2 array: H_Beret_Colonel."
+ 1:31:08 "[A3XAI] Removing invalid headgear classname from A3XAI_headgearTypes3 array: H_Beret_Colonel."
+ 1:31:08 "[A3XAI] Verified 211 unique classnames in 0.0299683 seconds."
+ 1:31:27 "exile/BIS_fnc_log: [BIS_fnc_preload] ----- Scripts initialized at 29780 ms -----"
+ 1:31:38 "<infiSTAR.de>TokenLog| CREATED TOKEN [l3k0hi02qnrbjo3yv] FOR Mateuus(76561198065694695) - 3 (v0016F)"
+ 1:31:38 "<infiSTAR.de>TokenLog| SENT TOKEN [l3k0hi02qnrbjo3yv] TO Mateuus(76561198065694695) - 3 (v0016F)"
+ 1:31:38 "ExileServer - Player Mateuus (UID 76561198065694695) connected!"
+ 1:31:38 "<infiSTAR.de>ConnectLog| 0h 0min 0s | Connected: Mateuus(76561198065694695 - 3) - time: 0 - serverFPS: 50 (v0016F)"
+ 1:31:38  Mission id: faeb73bab4f6f795e42f8049a9d04620ebdabbbc
+ 1:31:38 "<infiSTAR.de>ConnectLog| 0h 0min 0s | Connected: __SERVER__( - 2) - time: 0 - serverFPS: 46.9208 (v0016F)"
+ 1:31:39 "-- LOOTSPAWNER LSusedclass_list ready, d: 0.247s"
+ 1:31:39 "-- LOOTSPAWNER LSDer started..."
+ 1:31:39 "-- LOOTSPAWNER ready and waiting for players -----"
+ 1:31:39 "\\\ --- Starting ExileZ 2.0 --- ///"
+ 1:31:40 "ExileZ 2.0: Compounding Zombie Group Weight, Selected Group Trigger Index : 0"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 0		Weight : 50		Compound Weight Value : 	50"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 1		Weight : 50		Compound Weight Value : 	100"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 2		Weight : 5		Compound Weight Value : 	105"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 3		Weight : 2		Compound Weight Value : 	107"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 4		Weight : 5		Compound Weight Value : 	112"
+ 1:31:40 "ExileZ 2.0: Zombie Type Index : 5		Weight : 5		Compound Weight Value : 	117"
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [5508,4081] 	|	Radius : 300m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [9707,13577] 	|	Radius : 400m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [11641,2707] 	|	Radius : 300m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [5681,10331] 	|	Radius : 500m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [8904,10200] 	|	Radius : 300m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12461,14212] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [3865,13919] 	|	Radius : 175m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [3071,11123] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [1813,12019] 	|	Radius : 250m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [2650,9291] 	|	Radius : 100m	|	Near : Sosovu "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [987,7672] 	|	Radius : 200m	|	Near : Tavu "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [2343,8181] 	|	Radius : 100m	|	Near : Leqa "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [2663,7348] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [3434,6719] 	|	Radius : 150m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [1713,6120] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [7119,4248] 	|	Radius : 100m	|	Near : Savaka "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [3634,2171] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [2957,3435] 	|	Radius : 150m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [3248,3365] 	|	Radius : 150m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [1371,3012] 	|	Radius : 200m	|	Near : Koumac "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [8968,4710] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [8882,3615] 	|	Radius : 150m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [10379,2669] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [9410,4019] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12986,2118] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [13314,2964] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12708,3258] 	|	Radius : 100m	|	Near : Port-Boisé "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12375,4532] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12795,4791] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [11228,5256] 	|	Radius : 225m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [10194,5024] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [10884,6325] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12811,7350] 	|	Radius : 300m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [13963,8345] 	|	Radius : 200m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [14419,8878] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [14262,11620] 	|	Radius : 100m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [12444,12729] 	|	Radius : 125m	|	Near : Ovau "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [11356,12326] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [10987,13211] 	|	Radius : 100m	|	Near : Pénélo "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [10360,13320] 	|	Radius : 125m	|	Near :  "
+ 1:31:40 "ExileZ 2.0: Creating Trigger	|	Position : [8423,13685] 	|	Radius : 125m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [7906,13527] 	|	Radius : 100m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [6871,13372] 	|	Radius : 125m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [6370,12866] 	|	Radius : 200m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [5724,12297] 	|	Radius : 100m	|	Near : Oua-Oué "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [5849,11135] 	|	Radius : 200m	|	Near : Saint-Julien "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [5134,8680] 	|	Radius : 200m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [7228,7978] 	|	Radius : 200m	|	Near : Lifou "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [8006,7656] 	|	Radius : 250m	|	Near : Lami "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [11013,9745] 	|	Radius : 175m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Compounding Zombie Group Weight, Selected Group Trigger Index : 1"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 0		Weight : 50		Compound Weight Value : 	50"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 1		Weight : 50		Compound Weight Value : 	100"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 2		Weight : 5		Compound Weight Value : 	105"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 3		Weight : 3		Compound Weight Value : 	108"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 4		Weight : 2		Compound Weight Value : 	110"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 5		Weight : 2		Compound Weight Value : 	112"
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [8265,11119] 	|	Radius : 100m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [8484,12462] 	|	Radius : 100m	|	Near : roadhouse "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [2081,13190] 	|	Radius : 500m	|	Near : Tuvanaka Airbase "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [2193,3544] 	|	Radius : 300m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [11667,3118] 	|	Radius : 300m	|	Near : Saint-George Airstrip "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [12100,2500] 	|	Radius : 125m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [13548,12149] 	|	Radius : 550m	|	Near : Blue Pearl industrial port "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [11860,13162] 	|	Radius : 300m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [8903,13734] 	|	Radius : 100m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Compounding Zombie Group Weight, Selected Group Trigger Index : 2"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 0		Weight : 100		Compound Weight Value : 	100"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 1		Weight : 50		Compound Weight Value : 	150"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 2		Weight : 100		Compound Weight Value : 	250"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 3		Weight : 50		Compound Weight Value : 	300"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 4		Weight : 10		Compound Weight Value : 	310"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 5		Weight : 5		Compound Weight Value : 	315"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 6		Weight : 5		Compound Weight Value : 	320"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 7		Weight : 3		Compound Weight Value : 	323"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 8		Weight : 10		Compound Weight Value : 	333"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 9		Weight : 10		Compound Weight Value : 	343"
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [7445,8547] 	|	Radius : 150m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [8368,10301] 	|	Radius : 200m	|	Near : Tanoa Sugar Company "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [11039,8466] 	|	Radius : 125m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Compounding Zombie Group Weight, Selected Group Trigger Index : 3"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 0		Weight : 50		Compound Weight Value : 	50"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 1		Weight : 25		Compound Weight Value : 	75"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 2		Weight : 50		Compound Weight Value : 	125"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 3		Weight : 25		Compound Weight Value : 	150"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 4		Weight : 20		Compound Weight Value : 	170"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 5		Weight : 15		Compound Weight Value : 	185"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 6		Weight : 10		Compound Weight Value : 	195"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 7		Weight : 5		Compound Weight Value : 	200"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 8		Weight : 5		Compound Weight Value : 	205"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 9		Weight : 15		Compound Weight Value : 	220"
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [11959,10373] 	|	Radius : 300m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Compounding Zombie Group Weight, Selected Group Trigger Index : 4"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 0		Weight : 10		Compound Weight Value : 	10"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 1		Weight : 10		Compound Weight Value : 	20"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 2		Weight : 15		Compound Weight Value : 	35"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 3		Weight : 15		Compound Weight Value : 	50"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 4		Weight : 1		Compound Weight Value : 	51"
+ 1:31:41 "ExileZ 2.0: Zombie Type Index : 5		Weight : 3		Compound Weight Value : 	54"
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [4138,12387] 	|	Radius : 100m	|	Near : maze "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [9946,12134] 	|	Radius : 450m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Safezone Trigger		|	Position : [14599,16797] 	|	Radius : 175m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Safezone Trigger		|	Position : [23334,24188] 	|	Radius : 175m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Safezone Trigger		|	Position : [2998,18175] 	|	Radius : 175m	|	Near :  "
+ 1:31:41 "ExileZ 2.0: Creating Trigger	|	Position : [9352.97,12326.7,0] 	|	Radius : 200m	|	Near :  "
+ 1:31:48 Strange convex component70 in a3\structures_f_exp\commercial\multistorybuilding_01\multistorybuilding_01_f.p3d:geometryFire
+ 1:31:48 Strange convex component75 in a3\structures_f_exp\commercial\multistorybuilding_01\multistorybuilding_01_f.p3d:geometryFire
+ 1:31:48 Strange convex component76 in a3\structures_f_exp\commercial\multistorybuilding_01\multistorybuilding_01_f.p3d:geometryFire
+ 1:31:48 Strange convex component77 in a3\structures_f_exp\commercial\multistorybuilding_01\multistorybuilding_01_f.p3d:geometryFire
+ 1:31:48 Strange convex component78 in a3\structures_f_exp\commercial\multistorybuilding_01\multistorybuilding_01_f.p3d:geometryFire
+ 1:32:05 Strange convex component16 in a3\boat_f_gamma\boat_civil_04\boat_civil_04_f.p3d:geometryView
+ 1:32:05 Strange convex component25 in a3\boat_f_gamma\boat_civil_04\boat_civil_04_f.p3d:geometryView
+ 1:32:05 Strange convex component26 in a3\boat_f_gamma\boat_civil_04\boat_civil_04_f.p3d:geometryView
+ 1:32:05 Strange convex component27 in a3\boat_f_gamma\boat_civil_04\boat_civil_04_f.p3d:geometryView
+ 1:32:07 "/// --- ExileZ 2.0 Started --- \\\"
+ 1:32:07 "exile/BIS_fnc_log: [postInit] exilez_fnc_init (60497 ms)"
+ 1:32:07 "exile/BIS_fnc_log: [postInit] ExileClient_fnc_postInit (0.976563 ms)"
+ 1:32:07 "Sending information to exilemod.com (If config file exists!)..."
+ 1:32:07 "Result: "
+ 1:32:07 "ExileServer - Job with handle 10000 added."
+ 1:32:07 "ExileServer - Job with handle 10001 added."
+ 1:32:07 "ExileServer - Job with handle 10002 added."
+ 1:32:07 "ExileServer - Job with handle 10003 added."
+ 1:32:07 Weather was forced to change
+ 1:32:07 "ExileServer - Job with handle 10004 added."
+ 1:32:07 "ExileServer - Initializing game world..."
+ 1:32:07 "ExileServer - Loading territories from database..."
+ 1:32:07 "ExileServer - Done loading territories!"
+ 1:32:07 "ExileServer - Loading constructions from database..."
+ 1:32:08 "ExileServer - Done loading constructions!"
+ 1:32:08 "ExileServer - Loading vehicles from database..."
+ 1:32:09 class HitPoints::HitFuel not found in Exile_Boat_RubberDuck_CSAT
+ 1:32:09 "ExileServer - Done loading vehicles!"
+ 1:32:09 "ExileServer - Loading containers from database..."
+ 1:32:09 "ExileServer - Done loading containers!"
+ 1:32:09 "ExileServer - Creating spawn zone vehicles..."
+ 1:32:10 Error: EntityAI SubSkeleton index was not initialized properly (repeated 0x in the last 60sec)
+ 1:32:10 name: Land_Shop_City_03_F, shape: a3\structures_f_exp\commercial\shop_city_03\shop_city_03_f.p3d, index: -1, matrices: 4
+ 1:32:12 "ExileServer - Spawning Dynamic Vehicles. GridSize: 2200 Vehs/Grid : 2"
+ 1:32:12 Cannot load surface info ca\data\Penetration\mattress.bisurf
+ 1:32:12 Exile_Car_UAZ_Open_Green: wiper_1_loop - unknown animation source wipers
+ 1:32:12 Exile_Car_UAZ_Open_Green: wipers - unknown animation source wiper
+ 1:32:12 Exile_Car_UAZ_Green: wiper_1_loop - unknown animation source wipers
+ 1:32:12 Exile_Car_UAZ_Green: wipers - unknown animation source wiper
+ 1:32:12 Exile_Car_Octavius_White: IndicatorOil - unknown animation source oilTemp
+ 1:32:12 Exile_Car_Octavius_White: fuel - unknown animation source fuel_1
+ 1:32:12 Exile_Car_Octavius_White: gearbox - unknown animation source gearbox
+ 1:32:12 Exile_Car_Octavius_White: Trunk2 - unknown animation source trunk
+ 1:32:13 Render target memory points PIP0_pos & PIP0_dir not found.
+ 1:32:13 Render target memory points PIP1_pos & PIP1_dir not found.
+ 1:32:13 Render target memory points PIP2_pos & PIP2_dir not found.
+ 1:32:14 TowingTractor: Invalid parent bone 'wheel_1_2' for 'wheel_1_2_hide'
+ 1:32:14 TowingTractor: Invalid parent bone 'wheel_2_2' for 'wheel_2_2_hide'
+ 1:32:14 Render target memory points PIP1_pos & PIP1_dir not found.
+ 1:32:14 Render target memory points PIP2_pos & PIP2_dir not found.
+ 1:32:16 "ExileZ 2.0: Next Horde in 23 minutes."
+ 1:32:18 "ExileServer - Dynamic vehicles spawned. Count : 98"
+ 1:32:18 "ExileServer - Game world initialized! Let the fun begin!"
+ 1:32:18 "ExileServer - Dynamic persistent vehicles spawned."
+ 1:32:18 "ExileServer - Job with handle 10005 added."
+ 1:32:18 "ExileServer - Server is up and running! Version: 0.9.61"
+ 1:32:18 "exile/BIS_fnc_log: [postInit] ExileServer_fnc_postInit (10931 ms)"
+ 1:32:18 "exile/BIS_fnc_log: [postInit] VirtualGarageServer_fnc_postInit (0 ms)"
+ 1:32:18 [ZCP]: Initiate Zupa's Capture Points
+ 1:32:18 "[ZCP]: Config loaded succesfull"
+ 1:32:18 "[ZCP]: CPdata: [["ZCP Alpha",[[10000,10000,0],[10000,10000,0]],["Random","Random","Reputation"],"alpha0",0,true,false,["ec_audacity.sqf","ec_bravery.sqf","ec_courage.sqf","ec_defiance.sqf","ec_endurance.sqf","ec_fortitude.sqf","m3e_exoBase1.sqf","m3e_exoBase2.sqf","m3e_exoBase3.sqf"],-1,-1,-1,300,4,8,true,0,0,true,[[15,3,2,200,true],[45,3,3,200,false],[60,2,4,200,true]]],["ZCP Bravo",[[10000,10000,0],[10000,10000,0]],["Random","Random","Reputation"],"beta1",1,true,false,"Random",-1,-1,-1,300,4,8,true,20,50,true,[[30,3,2,200,true],[75,3,3,200,false]]],["ZCP Charlie",[[10000,10000,0],[10000,10000,0]],["Random","Random","Reputation"],"charlie2",2,true,false,"Random",-1,-1,-1,300,4,8,true,20,50,true,[[50,3,2,200,true]]]]"
+ 1:32:18 [ZCP]: World: Tanoa | Center: [7680,7680,0] | Radius: 7680
+ 1:32:18 [ZCP]: Capture Points is fully running.
+ 1:32:18 [ZCP]: Waiting 120s for first mission.
+ 1:32:18 "ExileServer - Main thread started"
+ 1:32:18 "ExileServer - Starting session for 'Mateuus' with ID 'GXWQCrqE'..."
+ 1:32:38 Ragdoll - loading of ragdoll source "Soldier" started.
+ 1:32:38 Ragdoll - loading of ragdoll source "Soldier" finished successfully.
+ 1:32:47 "ExileZ 2.0: Activating Trigger	|	Position : [5681,10331,0]	|	GroupSize : 10	|	Near :  "
+ 1:32:47 "ExileZ 2.0: Deactivating Trigger	|	Position : [5681,10331,0]	|	GroupSize : 10	|	Near :  "
+ 1:32:49 WARNING: Function 'name' - Mateuus is dead
+ 1:33:34 WARNING: Function 'name' - Mateuus is dead
+ 1:34:06 "ExileZ 2.0: 1 Player in game."
+ 1:34:06 "ExileZ 2.0: Waiting 180 seconds."
+ 1:34:18 "ExileServer - Job with handle 10006 added."
+ 1:34:18 "exile/BIS_fnc_log: [postInit] ZCP_fnc_startZCP (120002 ms)"
+ 1:34:18 "exile/BIS_fnc_log: [postInit] ClaimVehicles_Server_fnc_postInit (0 ms)"
+ 1:34:18 "exile/BIS_fnc_log: [postInit] ExHP_fnc_customize (0 ms)"
+ 1:34:18 "ZCP:1 online, will spawn 1 missions in total."
+ 1:34:18 [ZCP]: beta1 initiated.
+ 1:34:19 WARNING: Function 'name' - Mateuus is dead
+ 1:34:52 [ZCP]: Waiting for 0 players to be online.
+ 1:35:04 WARNING: Function 'name' - Mateuus is dead
+ 1:35:49 WARNING: Function 'name' - Mateuus is dead
+ 1:35:52 [ZCP]: 0 players reached, starting ZCP Bravo.
+ 1:36:01 "ZCP: buildables close, finding new position"
+ 1:36:01 [ZCP]: ZCP Bravo :Spawning dynamic on [2353.56,12228.5,0]
+ 1:36:01 "ZCP - Debug: [2353.56,12228.5,0]"
+ 1:36:02 SW keep height animation used for a3\structures_f_epb\civ\accessories\woodpile_large_f.p3d
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 a3\structures_f_heli\vr\helpers\sign_sphere25cm_f.p3d: No geometry and no visual shape
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:02 "[ZCP]: You don't have DMS, please edit the config."
+ 1:36:32 "[A3XAI Monitor] [Uptime:00:16:49][FPS:50][Groups:0/0][Respawn:0][HC:false]"
+ 1:36:32 "[A3XAI Monitor] [Static:0][Dynamic:0][Random:0][Air:0][Land:0][UAV:0][UGV:0]"
+ 1:36:34 WARNING: Function 'name' - Mateuus is dead
+ 1:37:06 "ExileZ 2.0: 1 Player in game."
+ 1:37:06 "ExileZ 2.0: Waiting 180 seconds."
+ 1:37:19 WARNING: Function 'name' - Mateuus is dead
+ 1:38:04 WARNING: Function 'name' - Mateuus is dead
+ 1:38:49 WARNING: Function 'name' - Mateuus is dead
+ 1:39:34 WARNING: Function 'name' - Mateuus is dead
+ 1:40:06 "ExileZ 2.0: 1 Player in game."
+ 1:40:06 "ExileZ 2.0: Waiting 180 seconds."
+ 1:40:19 WARNING: Function 'name' - Mateuus is dead
+ 1:40:39 Deinitialized shape [Class: "Exile_Unit_GhostPlayer"; Shape: "a3\characters_f\common\invisibleman.p3d";]
+ 1:40:39 Deinitialized shape [Class: "Exile_Unit_Player"; Shape: "a3\characters_f\common\coveralls.p3d";]
+ 1:40:39 Deinitialized shape [Class: "B_ghillie_lsh_F"; Shape: "a3\characters_f_mark\blufor\b_fullghillie_f.p3d";]
+ 1:40:39 Deinitialized shape [Class: "I_ghillie_ard_F"; Shape: "a3\characters_f_mark\indep\i_fullghillie_f.p3d";]
+ 1:40:39 Deinitialized shape [Class: "I_ghillie_sard_F"; Shape: "a3\characters_f_mark\indep\i_fullghillie_f.p3d";]
+ 1:40:39 Deinitialized shape [Class: "O_ghillie_lsh_F"; Shape: "a3\characters_f_mark\opfor\o_fullghillie_f.p3d";]
+ 1:40:39 Deinitialized shape [Class: "I_diver_F"; Shape: "a3\characters_f\common\diver_slotable.p3d";]
+ 1:40:39 c:\w\stable\futura\lib\network\networkserver.cpp ClearNetServer:NOT IMPLEMENTED - briefing!
+ 1:40:41 Extensions:
+ 1:40:41   ARMA_LOG (.\ARMA_LOG.dll) [] []
+
+ 1:40:41   ARMA_LOAD (.\ARMA_LOAD.dll) [1.0.0.0] [1.0.0.0]
+
+ 1:40:41   extDB2 (C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Server\@extDB2\extDB2.dll) [70.0.0.0] [70.0.0.0]
+

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=111;
+		nextID=136;
 	};
 	class MarkerIDProvider
 	{
@@ -16,17 +16,19 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6987.9961,78.890289,7514.8521};
-		dir[]={-0.74592721,-0.47049883,-0.47152939};
-		up[]={-0.39773902,0.88237816,-0.25142586};
-		aside[]={-0.53436714,-2.9425428e-007,0.8453303};
+		pos[]={2857.502,1064.0159,12655.903};
+		dir[]={-0.34440088,-0.72355878,0.59823501};
+		up[]={-0.36100852,0.69024664,0.62708312};
+		aside[]={0.86666167,-4.0605664e-007,0.49893251};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"exile_client",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"ryanzombies",
+	"ryanzombiesfunctions"
 };
 class AddonsMetaData
 {
@@ -74,23 +76,6 @@ class Intro
 };
 class Mission
 {
-   class Markers
-    {
-        items=1;
-        class Item0
-        {
-            position[]={10025.323,0.042,11771.568};
-            name="TraderZoneSilderas";
-            text="Trader City";
-            markerType="ELLIPSE";
-            type="ExileTraderZone";
-            colorName="ColorBlue";
-            fillName="SolidBorder";
-            a=175;
-            b=175;
-            drawBorder=1;
-        };
-    };
 	class Intel
 	{
 		startWeather=0.30000001;
@@ -110,7 +95,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=7;
+		items=31;
 		class Item0
 		{
 			dataType="Marker";
@@ -168,6 +153,22 @@ class Mission
 			atlOffset=-1.3927612;
 		};
 		class Item6
+		{
+			dataType="Marker";
+			position[]={10025.323,3.4977586e+020,11771.568};
+			name="TraderZoneSilderas";
+			text="Trader City";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlue";
+			fillName="SolidBorder";
+			a=175;
+			b=175;
+			drawBorder=1;
+			id=6;
+			atlOffset=3.4977586e+020;
+		};
+		class Item7
 		{
 			dataType="Group";
 			side="Independent";
@@ -2077,6 +2078,250 @@ class Mission
 			};
 			id=9;
 			atlOffset=2.3841858e-007;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={10025.277,0,11772.044};
+			name="TraderZone_name";
+			text="Trade  City";
+			type="hd_dot";
+			colorName="ColorGreen";
+			id=111;
+			atlOffset=-409.87;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={9410.0176,-2.4727548e-038,6187.917};
+			name="TraderZone_name_1";
+			text="Trade Boats";
+			type="hd_dot";
+			colorName="ColorBlue";
+			id=114;
+			atlOffset=1.5538988;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={2672.1299,-5.4369013e-038,12311.565};
+			name="TraderZone_name_2";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=115;
+			atlOffset=-171.60783;
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={3260.3411,-2.4727548e-038,11002.208};
+			name="TraderZone_name_3";
+			text="Trade Boats";
+			type="hd_dot";
+			colorName="ColorBlue";
+			id=116;
+			atlOffset=3.3727782;
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={2154.6411,-2.5268968e-034,4680.7681};
+			name="TraderZone_name_4";
+			text="Trade Boats";
+			type="hd_dot";
+			colorName="ColorBlue";
+			id=117;
+			atlOffset=1.8825001;
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={2114.895,-4.7394894e-030,3439.488};
+			name="TraderZone_name_5";
+			text="Trade Air";
+			type="hd_dot";
+			colorName="ColorCIV";
+			id=118;
+			atlOffset=-12.95;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={2115.791,-4.7394894e-030,3444.311};
+			name="TraderZone_name_6";
+			text="Trade Paintjob";
+			type="hd_dot";
+			colorName="ColorOrange";
+			id=119;
+			atlOffset=-12.95;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={4703.437,-3.481403e-018,3153.115};
+			name="TraderZone_name_7";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=120;
+			atlOffset=-87.441963;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={9493.5439,-2.4727548e-038,4274.145};
+			name="TraderZone_name_8";
+			text="Trade Boats";
+			type="hd_dot";
+			colorName="ColorBlue";
+			id=121;
+			atlOffset=10.388733;
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={11024.979,-2.4727548e-038,4216.7881};
+			name="TraderZone_name_9";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=122;
+			atlOffset=-182.53;
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={13986.42,-6.8250557e-035,10002.039};
+			name="TraderZone_name_10";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=123;
+			atlOffset=-116.57136;
+		};
+		class Item19
+		{
+			dataType="Marker";
+			position[]={9816.7939,-6.8250557e-035,6403.4551};
+			name="TraderZone_name_11";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorGreen";
+			id=124;
+			atlOffset=-2.5311792;
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={11077.075,-5.3010283,13392.995};
+			name="TraderZone_name_12";
+			text="Trade Boats";
+			type="hd_dot";
+			colorName="ColorBlue";
+			id=125;
+			atlOffset=3.293726;
+		};
+		class Item21
+		{
+			dataType="Marker";
+			position[]={11665.418,5.225112,3175.1091};
+			name="TraderZone_name_13";
+			text="Trade Air";
+			type="hd_dot";
+			colorName="ColorCIV";
+			id=126;
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={11667.948,5.1792188,3170.0291};
+			name="TraderZone_name_14";
+			text="Trade Paintjob";
+			type="hd_dot";
+			colorName="ColorOrange";
+			id=127;
+		};
+		class Item23
+		{
+			dataType="Marker";
+			position[]={4648.2881,-113.54761,8446.582};
+			name="TraderZone_name_15";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=128;
+			atlOffset=-116.57127;
+		};
+		class Item24
+		{
+			dataType="Marker";
+			position[]={2300.5342,13.45,13408.2};
+			name="TraderZone_name_16";
+			text="Trade Air";
+			type="hd_dot";
+			colorName="ColorCIV";
+			id=129;
+		};
+		class Item25
+		{
+			dataType="Marker";
+			position[]={2306.3999,13.45,13412.92};
+			name="TraderZone_name_17";
+			text="Trade Paintjob";
+			type="hd_dot";
+			colorName="ColorOrange";
+			id=130;
+		};
+		class Item26
+		{
+			dataType="Marker";
+			position[]={6924.3208,2.6600001,7497.6021};
+			name="TraderZone_name_18";
+			text="Wast Dump";
+			type="hd_dot";
+			colorName="ColorRed";
+			id=131;
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={6942.147,2.6600001,7500.6382};
+			name="TraderZone_name_19";
+			text="Trade Air";
+			type="hd_dot";
+			colorName="ColorCIV";
+			id=132;
+		};
+		class Item28
+		{
+			dataType="Marker";
+			position[]={6946.793,2.6600001,7499.0059};
+			name="TraderZone_name_20";
+			text="Trade Paintjob";
+			type="hd_dot";
+			colorName="ColorOrange";
+			id=133;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={11753.655,6.9499998,13092.632};
+			name="TraderZone_name_21";
+			text="Trade Air";
+			type="hd_dot";
+			colorName="ColorCIV";
+			id=134;
+		};
+		class Item30
+		{
+			dataType="Marker";
+			position[]={11750.605,6.9499998,13096.222};
+			name="TraderZone_name_22";
+			text="Trade Paintjob";
+			type="hd_dot";
+			colorName="ColorOrange";
+			id=135;
 		};
 	};
 };
