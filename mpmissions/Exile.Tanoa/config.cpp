@@ -2015,10 +2015,10 @@ class CfgTraderCategories
 //  #include "TRADERS\CUPU\TraderCategoriesCUPU.hpp"
 //  #include "TRADERS\CUPW\TraderCategoriesCUPW.hpp"
 //	#include "TRADERS\CUPV\TraderCategoriesCUPV.hpp"
-	#include "TRADERS\HLC\TraderCategoriesHLC.hpp"
-    #include "TRADERS\HAP\TraderCategoriesHAP.hpp" 
-	#include "TRADERS\HVP\TraderCategoriesHVP.hpp"
-	#include "TRADERS\Jonzie\TraderCategoriesJonzie.hpp"
+//	#include "TRADERS\HLC\TraderCategoriesHLC.hpp"
+//  #include "TRADERS\HAP\TraderCategoriesHAP.hpp" 
+//	#include "TRADERS\HVP\TraderCategoriesHVP.hpp"
+//	#include "TRADERS\Jonzie\TraderCategoriesJonzie.hpp"
 //	#include "TRADERS\HWP\TraderCategoriesHWP.hpp"
 //	#include "TRADERS\MASV\TraderCategoriesMASV.hpp"
 //	#include "TRADERS\MASW\TraderCategoriesMASW.hpp"
@@ -2050,25 +2050,25 @@ class CfgTraders
 			//"HLCMuzzleAttachments",
 			//"RHSMuzzleAttachments",
 			"OpticAttachments",
-			"HLCOpticAttachments",
+			//"HLCOpticAttachments",
 			//"RHSOpticAttachments",
 			"Ammunition",
-			"HLCAmmunition",
+			//"HLCAmmunition",
 			//"RHSAmmunition",
 			"Pistols",
 			//"RHSPistols",
 			"SubMachineGuns",
-			"HLCSubMachineGuns",
+			//"HLCSubMachineGuns",
 			//"LightMachineGuns",
 			//"HLCLightMachineGuns",
 			//"RHSLightMachineGuns",
 			"AssaultRifles",
-			"HLCAssaultRifles",
+			//"HLCAssaultRifles",
 			//"RHSAssaultRifles",
-			"SniperRifles",
+			"SniperRifles"
 			//"HLCSniperRifles",
 			//"RHSSniperRifles",
-			"HAPWeapons"
+			//"HAPWeapons"
 		};
 	};
 
@@ -2088,8 +2088,8 @@ class CfgTraders
 			"Explosives",
 			//"RHSExplosives",
 			//"RHSMines",
-			"Navigation",
-			"HLCgrenades"
+			"Navigation"
+			//"HLCgrenades"
 		};
 	};
 
@@ -2104,15 +2104,15 @@ class CfgTraders
 		{
 			"Headgear",
 			//"RHSHeadgear",
-			"HAPHeadgear",
+			//"HAPHeadgear",
 			"Uniforms",
-			"HAPUniforms",
+			//"HAPUniforms",
 			//"RHSUniforms",
 			"Vests",
-			"HAPVests",
+			//"HAPVests",
 			//"RHSVests",
 			"Backpacks",
-			"HAPBackpacks",
+			//"HAPBackpacks",
 			"FirstAid"
 		};
 	};
@@ -2156,9 +2156,9 @@ class CfgTraders
 		categories[] = 
 		{
 			"Cars",
-			"HVPCars",
-			"HAPCars",
-			"JonzieCars",
+			//"HVPCars",
+			//"HAPCars",
+			//"JonzieCars",
 			"Trucks"
 		};
 	};
@@ -2173,8 +2173,8 @@ class CfgTraders
 		categories[] = 
 		{
 			"Choppers",
-			"Planes",
-			"HVPPlanes"
+			"Planes"
+			//"HVPPlanes"
 		};
 	};
 
@@ -2307,7 +2307,7 @@ class CfgTrading
 };
 class CfgVehicleCustoms
 {
-	#include "custom\modpaintjobs\hvp.hpp"
+	//#include "custom\modpaintjobs\hvp.hpp"
 	
 	
 	///////////////////////////////////////////////////////////////////////////////
